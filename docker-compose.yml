@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  netcore.starter.web:
+    image: ${DOCKER_REGISTRY}netcorestarterweb
+    build:
+      context: .
+      dockerfile: NetCore.Starter.Web\Dockerfile
